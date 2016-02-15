@@ -1,0 +1,27 @@
+{
+  "name": "express-redis-session",
+  "version": "1.0.0",
+  "description": "a redis session middleware for express ",
+  "main": "express-redis-session.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bughou/express-redis-session.git"
+  },
+  "keywords": [
+    "redis",
+    "session"
+  ],
+  "author": "bughou@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bughou/express-redis-session/issues"
+  },
+  "homepage": "https://github.com/bughou/express-redis-session#readme",
+  "dependencies": {
+    "on-headers": "^1.0.1",
+    "urlsafe-base64": "^1.0.0"
+  }
+}
